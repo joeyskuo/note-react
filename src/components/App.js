@@ -31,7 +31,7 @@ class App extends Component {
 
         notes.push({text});
 
-        this.setState({notes})
+        this.setState({notes});
 
         bake_cookie(cookie_key, this.state.notes);
     }
